@@ -73,3 +73,7 @@ header nav .left a:hover {
 .hero.right h1 span {
     color: var(--primary);
 }
+
+.hero.right p {
+    margin-bottom: 2rem;
+}
