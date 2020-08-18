@@ -20,6 +20,7 @@ body {
 
 header {
     background: var(--dark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 85%, 0 100%);
 }
 
 .container {
@@ -49,6 +50,10 @@ header nav .left a:hover {
     color: var(--primary);
 }
 
+.hero {
+    padding: 3rem 0;
+}
+
 .hero.left img {
     widows: 400px;
 }
@@ -76,4 +81,8 @@ header nav .left a:hover {
 
 .hero.right p {
     margin-bottom: 2rem;
+}
+
+.hero.right {
+    margin-top: -7rem;
 }
