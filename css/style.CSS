@@ -64,6 +64,12 @@ header nav .left a:hover {
 }
 
 .hero.right h1 {
-    font-size: 3rem;
-    margin-bottom: .5rem;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    font-weight: 100;
+    line-height: 1.2;
+}
+
+.hero.right h1 span {
+    color: var(--primary);
 }
