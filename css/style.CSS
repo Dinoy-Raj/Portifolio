@@ -332,6 +332,8 @@ section.work .card-wrapper .card:hover .overlay a {
 
 section.block {
     background: var(--dark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 90%, 0 100%);
+    padding-bottom: 12rem;
 }
 
 section.block .section-heading {
@@ -377,6 +379,7 @@ section.block .card-wrapper .card .card-content p {
     font-family: 'Lato', sans-serif;
     color: var(--ternary);
     margin-top: 1rem;
+    padding-bottom: 2rem;
 }
 
 section.block .card-wrapper .card .card-content a.readmore {
