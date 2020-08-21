@@ -329,3 +329,26 @@ section.work .card-wrapper .card:hover .overlay {
 section.work .card-wrapper .card:hover .overlay a {
     color: var(--dark);
 }
+
+section.block {
+    background: var(--dark);
+}
+
+section.block .section-heading {
+    color: var(--pure);
+}
+
+section.block .card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+    align-content: center;
+}
+
+section.block .card-wrapper .card {
+    background: var(--pure);
+}
+
+section.block .card-wrapper .card .card-content {
+    padding: 2rem;
+}
