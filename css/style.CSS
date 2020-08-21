@@ -10,7 +10,7 @@
 
 body {
     font-family: 'Poppins', 'Segoe UI';
-    height: 8000px;
+    height: 7550px;
 }
 
 * {
@@ -454,4 +454,34 @@ section.contact input:focus {
 section.contact .container .button-sp {
     margin-top: 6rem;
     text-align: center;
+}
+
+footer {
+    background: black;
+    text-align: center;
+    height: 200px;
+    padding: 3rem 0;
+}
+
+footer .footer-socials img {
+    height: 35px;
+    width: 35px;
+}
+
+footer .footer-socials {
+    margin-right: -1rem;
+    margin-bottom: 1rem;
+}
+
+footer .copy-right {
+    color: var(--pure);
+}
+
+footer .footer-logo {
+    width: 150px;
+    margin-bottom: 1rem;
+}
+
+footer .copy-right {
+    color: var(--ternary);
 }
