@@ -342,7 +342,6 @@ section.block .card-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 3rem;
-    align-content: center;
 }
 
 section.block .card-wrapper .card {
@@ -351,4 +350,35 @@ section.block .card-wrapper .card {
 
 section.block .card-wrapper .card .card-content {
     padding: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+section.block .card-wrapper .card .card-content h1 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+section.block .card-wrapper .card .card-content a {
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+section.block .card-wrapper .card .card-content a:hover {
+    color: var(--primary);
+}
+
+section.block .card-wrapper .card .card-content span {
+    color: var(--ternary);
+    font-size: .8rem;
+}
+
+section.block .card-wrapper .card .card-content p {
+    font-family: 'Lato', sans-serif;
+    color: var(--ternary);
+    margin-top: 1rem;
+}
+
+section.block .card-wrapper .card .card-content a.readmore {
+    font-size: .8rem;
 }
