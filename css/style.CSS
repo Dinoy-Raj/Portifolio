@@ -13,6 +13,10 @@ body {
     height: 7550px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     padding: 0;
     margin: 0;
